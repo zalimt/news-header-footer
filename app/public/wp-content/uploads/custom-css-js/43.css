@@ -1,0 +1,161 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.megamenu {
+    display: flex;
+    align-items: center;
+}
+
+.megamenu .oneroyal-logo {
+    background: url("/images/oneroyal-logo.svg") center center no-repeat;
+    background-size: contain;
+    width: 123px;
+    height: 18px;
+    margin-right: 40px;
+}
+
+.megamenu .menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    height: 64px;
+}
+
+.megamenu .menu .menu-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.megamenu .menu .menu-item a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.megamenu .menu .menu-item a.menu-item-title {
+    color: var(--fg-button-link-2-l);
+}
+
+.megamenu .menu .menu-item a.menu-item-title.current,
+.megamenu .menu .menu-item a.menu-item-title:hover {
+    color: var(--fg-button-link-1-hover-l);
+}
+
+.megamenu .menu .menu-item .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--base-white);
+    display: none;
+    width: 100%;
+    z-index: 100;
+    padding: 32px 0;
+    border-top: 1px solid var(--neutral-200);
+}
+
+.megamenu .menu .menu-item .submenu .submenu-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.megamenu .menu .menu-item .submenu .submenu-columns .submenu-column {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.megamenu .menu .menu-item .submenu .submenu-columns .submenu-column .submenu-item {
+    padding: 12px;
+}
+
+.megamenu .menu .menu-item .submenu .submenu-columns .submenu-column .submenu-item h3 {
+    color: var(--heading-primary-l);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.megamenu .menu .menu-item .submenu .submenu-columns .submenu-column .submenu-item h3 .badge-new {
+    color: var(--success-700);
+    border: 1px solid var(--success-200);
+    background-color: var(--success-50);
+    padding: 2px 10px;
+}
+
+.megamenu .menu .menu-item .submenu .submenu-columns .submenu-column .submenu-item p {
+    color: var(--body-l);
+}
+
+.megamenu .menu .menu-item .submenu .submenu-columns .submenu-column .submenu-item:hover,
+.megamenu .menu .menu-item .submenu .submenu-columns .submenu-column .submenu-item.current {
+    background-color: var(--bg-secondary-l);
+    transition: 0.3s all;
+    border-radius: 10px;
+}
+
+.megamenu .menu .menu-item .submenu .submenu-columns .submenu-column.media-column img {
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+.megamenu .menu .menu-item .submenu .submenu-columns .submenu-column.media-column .media-column-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.megamenu .menu .menu-item .submenu .submenu-columns .submenu-column.media-column .media-column-content h3 {
+    margin-bottom: 8px;
+}
+
+.megamenu .menu .menu-item .submenu .submenu-columns .submenu-column.media-column .media-column-content p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.megamenu .menu .menu-item:hover .submenu {
+    display: block;
+}
+
+.megamenu .btns {
+    display: flex;
+    gap: 16px;
+    margin-left: auto;
+    align-items: center;
+}
+
+.megamenu .btns #theme-toggle {
+    width: 60px;
+    height: 35px;
+    border: 2px solid var(--neutral-300);
+    border-radius: 50px;
+    background: var(--primary-500);
+    position: relative;
+}
+
+.megamenu .btns #theme-toggle::before {
+    content: "";
+    background: url(/images/icons/toggle-light.svg) center center no-repeat;
+    margin-right: 40px;
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    left: 0px;
+    top: 0;
+    background-color: #fff;
+    border-radius: 50px;
+    transition: 0.3s all;
+}</style>
+<!-- end Simple Custom CSS and JS -->

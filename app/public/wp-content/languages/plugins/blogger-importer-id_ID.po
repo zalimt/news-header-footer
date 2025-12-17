@@ -1,0 +1,77 @@
+# Translation of Plugins - Blogger Importer - Stable (latest release) in Indonesian
+# This file is distributed under the same license as the Plugins - Blogger Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-08 02:23:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: id\n"
+"Project-Id-Version: Plugins - Blogger Importer - Stable (latest release)\n"
+
+#: blogger-importer.php:882
+msgid "Choose an XML file to upload, then click Upload file and import."
+msgstr "Pilih sebuah berkas XML, kemudian klik unggah berkas dan impor."
+
+#: blogger-importer.php:298
+msgid "- Select -"
+msgstr "- Pilih -"
+
+#: blogger-importer.php:291
+msgid "as a new user:"
+msgstr "sebagai pengguna baru:"
+
+#: blogger-importer.php:208
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr "Berkas ekspor tidak ditemukan di <code>%s</code>. Kemungkinan disebabkan oleh masalah perizinan."
+
+#: blogger-importer.php:187
+msgid "All done."
+msgstr "Semua selesai."
+
+#. Author URI of the plugin
+#: blogger-importer.php
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#. Author of the plugin
+#: blogger-importer.php
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Description of the plugin
+#: blogger-importer.php blogger-importer.php:935
+msgid "Import posts, comments, and categories from a Blogger blog and migrate authors to WordPress users."
+msgstr "Impor artikel, komentar dan kategori dari blog Blogger dan migrasikan penulis sebagai pengguna WordPress."
+
+#. Plugin URI of the plugin
+#: blogger-importer.php
+msgid "http://wordpress.org/extend/plugins/blogger-importer/"
+msgstr "http://wordpress.org/extend/plugins/blogger-importer/"
+
+#. Plugin Name of the plugin
+#: blogger-importer.php
+msgid "Blogger Importer"
+msgstr "Importir Blogger"
+
+#: blogger-importer.php:868
+msgid "Import Blogger"
+msgstr "Impor Blogger"
+
+#: blogger-importer.php:935
+msgid "Blogger"
+msgstr "Blogger"
+
+#: blogger-importer.php:676
+msgid "None of the images are valid"
+msgstr "Tak satupun gambar yang sah"
+
+#: blogger-importer.php:647
+msgid "Lowrez not an image"
+msgstr "Lowrez bukan gambar"
+
+#: blogger-importer.php:733 blogger-importer.php:817
+msgid "Attempting to write back empty content"
+msgstr "Berusaha untuk menulis ulang konten yang kosong"

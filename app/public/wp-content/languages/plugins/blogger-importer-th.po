@@ -1,0 +1,49 @@
+# Translation of Plugins - Blogger Importer - Stable (latest release) in Thai
+# This file is distributed under the same license as the Plugins - Blogger Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-03-22 03:51:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: th\n"
+"Project-Id-Version: Plugins - Blogger Importer - Stable (latest release)\n"
+
+#: blogger-importer.php:272
+msgid "Submit"
+msgstr "ส่ง"
+
+#. Author URI of the plugin
+#: blogger-importer.php
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#. Author of the plugin
+#: blogger-importer.php
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Description of the plugin
+#: blogger-importer.php blogger-importer.php:935
+msgid "Import posts, comments, and categories from a Blogger blog and migrate authors to WordPress users."
+msgstr "นำเข้าเรื่อง ความเห็นและหมวดหมู่ จากบล็อก Blogger และย้ายผู้เขียนมาเป็นผู้ใช้เวิร์ดเพรส"
+
+#. Plugin URI of the plugin
+#: blogger-importer.php
+msgid "http://wordpress.org/extend/plugins/blogger-importer/"
+msgstr "http://wordpress.org/extend/plugins/blogger-importer/"
+
+#. Plugin Name of the plugin
+#: blogger-importer.php
+msgid "Blogger Importer"
+msgstr "ตัวนำเข้า Blogger"
+
+#: blogger-importer.php:868
+msgid "Import Blogger"
+msgstr "นำเข้า Blogger"
+
+#: blogger-importer.php:935
+msgid "Blogger"
+msgstr "Blogger"

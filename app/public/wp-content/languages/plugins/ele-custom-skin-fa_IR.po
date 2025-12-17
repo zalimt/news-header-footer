@@ -1,0 +1,392 @@
+# Translation of Plugins - Elementor Custom Skin - Development (trunk) in Persian
+# This file is distributed under the same license as the Plugins - Elementor Custom Skin - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-31 15:22:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - Elementor Custom Skin - Development (trunk)\n"
+
+#: includes/ajax-pagination.php:518
+msgid "Ball Slide"
+msgstr "اسلاید توپ"
+
+#: includes/ajax-pagination.php:514
+msgid "Running Dots"
+msgstr "نقطه دونده"
+
+#: includes/ajax-pagination.php:510
+msgid "Progress Bar"
+msgstr "نوار پیشرفت"
+
+#: includes/ajax-pagination.php:397
+msgid "Padding"
+msgstr "فاصله داخلی"
+
+#: includes/ajax-pagination.php:377
+msgid "Border Radius"
+msgstr "انحنای گوشه ها"
+
+#: includes/ajax-pagination.php:356
+msgid "Hover Animation"
+msgstr "انیمیشن هاور"
+
+#: includes/ajax-pagination.php:342
+msgid "Border Color"
+msgstr "رنگ حاشیه"
+
+#: includes/ajax-pagination.php:312
+msgid "Hover"
+msgstr "هاور"
+
+#: includes/ajax-pagination.php:296 includes/ajax-pagination.php:331
+msgid "Background Color"
+msgstr "رنگ پس‌زمینه"
+
+#: includes/ajax-pagination.php:284 includes/ajax-pagination.php:319
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: includes/ajax-pagination.php:277
+msgid "Normal"
+msgstr "معمولی"
+
+#: includes/ajax-pagination.php:177 includes/ajax-pagination.php:178
+msgid "Loading..."
+msgstr "بارگذاری..."
+
+#: includes/ajax-pagination.php:175
+msgid "Loading Text"
+msgstr "متن حالت بارگذاری"
+
+#: includes/ajax-pagination.php:188
+msgid "Button Spacing"
+msgstr "فاصله دکمه ها"
+
+#: includes/ajax-pagination.php:164 includes/ajax-pagination.php:165
+msgid "Load More"
+msgstr "بارگیریِ‌بیشتر"
+
+#: includes/ajax-pagination.php:162
+msgid "Text"
+msgstr "متن"
+
+#: includes/ajax-pagination.php:150 includes/ajax-pagination.php:245
+msgid "Load More Button"
+msgstr "دکمه بارگذاری بیشتر"
+
+#: includes/ajax-pagination.php:128
+msgid "Animation Size"
+msgstr "اندازه انیمیشن"
+
+#: includes/ajax-pagination.php:91
+msgid "Animation Color"
+msgstr "رنگ انیمیشن"
+
+#: includes/ajax-pagination.php:79
+msgid "Loading Animation"
+msgstr "بارگذاری انیمیشن"
+
+#: includes/ajax-pagination.php:67
+msgid "Infinite Load"
+msgstr "حلقه بینهایت"
+
+#: includes/ajax-pagination.php:58 includes/ajax-pagination.php:59
+msgid "Previous/Next"
+msgstr "قبل/بعد"
+
+#: includes/ajax-pagination.php:55 includes/ajax-pagination.php:59
+msgid "Numbers"
+msgstr "اعداد"
+
+#: includes/ajax-pagination.php:56
+msgid "Load More (Custom Skin)"
+msgstr "بارگذاری بیشتر (پوسته سفارشی)"
+
+#: includes/ajax-pagination.php:57
+msgid "Infinite Load (Custom Skin Pro)"
+msgstr "بارگذاری بی نهایت (پوسته سفارشی Pro)"
+
+#: includes/ajax-pagination.php:106
+msgid "Animation Spacing"
+msgstr "فاصله انیمیشن"
+
+#: includes/pro-preview.php:325
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#: includes/pro-preview.php:320
+msgid "For this link to be SEO friendly please add a link to title or other widgets inside Loop Template."
+msgstr "برای اینکه این پیوند سئو دوستانه باشد، لطفاً لینکی به عنوان یا سایر ابزارک‌ها در قالب حلقه اضافه کنید."
+
+#: includes/pro-preview.php:319
+msgid "Link"
+msgstr "لینک"
+
+#: includes/pro-preview.php:301
+msgid "Make the entire Loop Template clickable."
+msgstr "قابل کلیک کردن کل قالب حلقه ."
+
+#: includes/pro-preview.php:300
+msgid "<b>Make entire post a link?</b>"
+msgstr "<b>کل پست یک لینک باشد؟</b>"
+
+#: includes/pro-preview.php:31
+msgid "Use templates based on Display Conditions set on Loop Templates"
+msgstr "از الگوها بر اساس شرایط نمایش تنظیم شده در قالب های حلقه استفاده کنید"
+
+#: includes/pro-preview.php:30
+msgid "<b>Enable Display Conditions</b>"
+msgstr "<b>فعال کردن شرایط نمایش </b>"
+
+#: skins/skin-custom.php:88
+msgid "Use custom grid?"
+msgstr "استفاده از گريد سفارشی؟"
+
+#: skins/skin-custom.php:105
+msgid "Create/edit a Custom Grid"
+msgstr "ایجاد/ویرایش یک گريد سفارشی"
+
+#: modules/loop-item/widgets/loop-item.php:33
+msgid "Loop Item"
+msgstr "آيتم حلقه"
+
+#: modules/loop-item/widgets/loop-item.php:77
+msgid "Content"
+msgstr "محتوا"
+
+#: modules/loop-item/widgets/loop-item.php:85
+msgid "Loop Item Place Holder"
+msgstr "نگهدارنده مکان آیتم حلقه  "
+
+#: modules/loop-item/widgets/loop-item.php:87
+msgid "Place this widget where the Loop Item you want to show in Ele Custom Skin."
+msgstr "این ویجت را در جایی که می خواهید آیتم حلقه در پوسته سفارشی Ele نشان دهید قرار دهید."
+
+#: theme-builder/conditions/custom-grid.php:29
+#: theme-builder/documents/custom-grid.php:41
+#: theme-builder/documents/custom-grid.php:47 theme-builder/init.php:100
+msgid "Custom Grid"
+msgstr "گرید سفارشی"
+
+#: includes/pro-preview.php:15
+msgid "See <b>Pro</b> features"
+msgstr "ویژگی‌های <b>Pro</b> را ببینید"
+
+#: theme-builder/documents/loop.php:63
+msgid "404"
+msgstr "404"
+
+#: theme-builder/documents/loop.php:60
+msgid "Single"
+msgstr "تکی"
+
+#: includes/pro-preview.php:112
+msgid "th post"
+msgstr "نوشته"
+
+#: includes/pro-preview.php:112
+msgid "Template for every "
+msgstr "الگو برای هر"
+
+#: includes/pro-preview.php:131
+msgid "Masonry"
+msgstr "مسونری"
+
+#: includes/pro-preview.php:171
+msgid "Show in Slider"
+msgstr "نمایش در اسلایدر"
+
+#: includes/pro-preview.php:189
+msgid "Slider Options"
+msgstr "تنظیمات اسلایدر"
+
+#: includes/pro-preview.php:203
+msgid "Slides to Show"
+msgstr "اسلاید ها برای نمایش"
+
+#: includes/ajax-pagination.php:506 includes/pro-preview.php:206
+#: includes/pro-preview.php:222
+msgid "Default"
+msgstr "پیشفرض"
+
+#: includes/pro-preview.php:218
+msgid "Slides to Scroll"
+msgstr "اسلاید ها برای اسکرول"
+
+#: includes/pro-preview.php:220
+msgid "Set how many slides are scrolled per swipe."
+msgstr "تعداد اسلایدهایی که در هر ضربه اسکرول شوند را تنظیم کنید."
+
+#: includes/pro-preview.php:235
+msgid "Navigation"
+msgstr "ناوبری"
+
+#: includes/pro-preview.php:239
+msgid "Arrows and Dots"
+msgstr "پیکان‌ها و نقطه‌ها"
+
+#: includes/pro-preview.php:240
+msgid "Arrows"
+msgstr "پیکان‌ها"
+
+#: includes/pro-preview.php:241
+msgid "Dots"
+msgstr "نقطه‌ها"
+
+#: includes/ajax-pagination.php:54 includes/pro-preview.php:242
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: skins/skin-custom.php:66
+msgid "Create/edit a Loop Template"
+msgstr "ایجاد/ویرایش یک الگوی حلقه"
+
+#: skins/skin-custom.php:329
+msgid "Please select a default template! "
+msgstr "لطفا یک الگوی پیشفرض را انتخاب کنید!"
+
+#: skins/skin-custom.php:436
+msgid "Page"
+msgstr "صفحه"
+
+#: includes/ajax-pagination.php:50 skins/skin-custom.php:459
+msgid "Pagination"
+msgstr "صفحه‌بندی"
+
+#: includes/pro-preview.php:18 includes/pro-preview.php:53
+msgid "Show"
+msgstr "نمایش"
+
+#: includes/pro-preview.php:17 includes/pro-preview.php:52
+msgid "Hide"
+msgstr "مخفی کردن"
+
+#: includes/pro-preview.php:50
+msgid "<b>Alternating templates</b>"
+msgstr "<b>الگوهای جایگزین</b>"
+
+#: includes/pro-preview.php:134 includes/pro-preview.php:151
+#: includes/pro-preview.php:174
+msgid "On"
+msgstr "روشن"
+
+#: includes/pro-preview.php:133 includes/pro-preview.php:150
+#: includes/pro-preview.php:173
+msgid "Off"
+msgstr "خاموش"
+
+#: includes/pro-preview.php:148
+msgid "Same Height"
+msgstr "ارتفاع یکسان"
+
+#: includes/pro-preview.php:120
+msgid "Display Mode"
+msgstr "حالت نمایش:"
+
+#: ele-custom-skin.php:58
+msgid "<b>Ele Custom Skin</b> needs <b>Elementor</b> and <b>Elementor Pro</b> to work. Make sure you have them <b>both</b> installed."
+msgstr "<b>پوسته سفارشی Ele </b> برای کار به <b>المنتور </b> و <b>المنتور پرو Pro</b> نیاز دارد. مطمئن شوید که <b>هردو</b> آنها را نصب کرده اید."
+
+#: includes/pro-preview.php:340
+msgid "Get full features with <b><i>Ele Custom Skin PRO</i></b>, "
+msgstr "ویژگی های کامل را با <b><i>Ele Custom Skin PRO</i></b> دریافت کنید،"
+
+#: includes/pro-preview.php:337
+msgid "Unlock PRO features. "
+msgstr "باز کردن ویژگی‌های PRO"
+
+#: includes/ajax-pagination.php:212 includes/ajax-pagination.php:226
+#: includes/pro-preview.php:33 includes/pro-preview.php:276
+#: includes/pro-preview.php:303 skins/skin-custom.php:90
+msgid "No"
+msgstr "نه"
+
+#: includes/ajax-pagination.php:213 includes/ajax-pagination.php:227
+#: includes/pro-preview.php:34 includes/pro-preview.php:275
+#: includes/pro-preview.php:304 skins/skin-custom.php:91
+msgid "Yes"
+msgstr "بله"
+
+#: includes/pro-preview.php:273
+msgid "Using Dynamic Keywords"
+msgstr "استفاده از کلمات کلیدی داینامیک"
+
+#: includes/pro-preview.php:262
+msgid "Dynamic Everywhere"
+msgstr "داینامیک در همه جا"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: ele-custom-skin.php
+msgid "https://dudaster.com"
+msgstr "https://dudaster.com"
+
+#: includes/pro-features.php:37
+msgid "Video Tutorial"
+msgstr "فیلم آموزشی"
+
+#: includes/pro-features.php:47
+msgid "Add Loop Template"
+msgstr "‫اضافه کردن الگوی حلقه"
+
+#: includes/pro-features.php:51 includes/pro-preview.php:340
+msgid "Go Pro"
+msgstr "رفتن به نسخه پرو"
+
+#: includes/pro-preview.php:71
+msgid "<i><b>n</b></i> th post"
+msgstr "<i><b>n</b></i> امین پست"
+
+#: includes/pro-preview.php:75
+msgid "nth"
+msgstr "nth"
+
+#: includes/pro-preview.php:76
+msgid "1"
+msgstr "1"
+
+#: includes/pro-preview.php:88 skins/skin-custom.php:63
+#: skins/skin-custom.php:102
+msgid "Select a default template"
+msgstr "یک الگوی پیشفرض را انتخاب کنید"
+
+#. Author of the plugin
+#: ele-custom-skin.php
+msgid "Dudaster.com"
+msgstr "Dudaster.com"
+
+#: skins/skin-custom.php:78
+msgid "View"
+msgstr "مشاهده"
+
+#: theme-builder/dynamic-tags/tags/post-summary.php:18
+msgid "Post Summary"
+msgstr "خلاصه پست"
+
+#: theme-builder/dynamic-tags/tags/post-summary.php:33
+msgid "Length"
+msgstr "طول"
+
+#: theme-builder/conditions/loop.php:31 theme-builder/documents/loop.php:40
+#: theme-builder/init.php:63
+msgid "Loop"
+msgstr "حلقه"
+
+#: skins/skin-custom.php:35 skins/skin-custom.php:624
+msgid "Custom"
+msgstr "سفارشی"
+
+#. Plugin Name of the plugin
+#: ele-custom-skin.php
+msgid "Ele Custom Skin"
+msgstr "پوسته سفارشی Ele"
+
+#. Description of the plugin
+#: ele-custom-skin.php
+msgid "Elementor Custom Skin for Posts and Archive Posts. You can create a skin as you want."
+msgstr "پوسته سفارشی المنتور برای پست ها و پست های آرشیو. شما می توانید پوسته ای را که می خواهید ایجاد کنید."

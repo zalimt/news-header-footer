@@ -1,0 +1,709 @@
+# Translation of Plugins - Under Construction - Stable (latest release) in Indonesian
+# This file is distributed under the same license as the Plugins - Under Construction - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-23 03:13:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: id\n"
+"Project-Id-Version: Plugins - Under Construction - Stable (latest release)\n"
+
+#: under-construction.php:1811
+msgid "WhatsApp phone number in international format without + or 00 prefix."
+msgstr "Nomor telepon WhatsApp dalam format internasional tanpa awalan + atau 00."
+
+#: under-construction.php:1810
+msgid "123-456-789"
+msgstr "123-456-789"
+
+#: under-construction.php:1890
+msgid "Dumper Truck"
+msgstr "Truk Dumper"
+
+#: under-construction.php:1781
+msgid "Complete URL, with https prefix, to Behance profile."
+msgstr "URL Lengkap, dengan awalan https, ke profil Behance."
+
+#: under-construction.php:1889
+msgid "Simple Green Animated"
+msgstr "Animasi Hijau Sederhana"
+
+#: under-construction.php:1888
+msgid "Temporarily Closed"
+msgstr "Ditutup Sementara"
+
+#: under-construction.php:1792
+msgid "VK profile URL"
+msgstr "URL profil VK"
+
+#: under-construction.php:1791
+msgid "VK Profile"
+msgstr "Profil VK"
+
+#: under-construction.php:1887
+msgid "Hard Worker"
+msgstr "Pekerja keras"
+
+#: under-construction.php:1886
+msgid "Pink Lips"
+msgstr "Bibir Merah Muda"
+
+#: under-construction.php:1843
+msgid "Simple Office"
+msgstr "Kantor Sederhana"
+
+#: under-construction.php:1880
+msgid "Fitness Studio Landing Page"
+msgstr "Halaman Arahan Studio Kebugaran"
+
+#: under-construction.php:1877
+msgid "Sunset"
+msgstr "Matahari terbenam"
+
+#: under-construction.php:1874
+msgid "Forest in the Fog"
+msgstr "Hutan Berkabut"
+
+#: under-construction.php:1871
+msgid "Travel Blog"
+msgstr "Blog Perjalanan"
+
+#: under-construction.php:1841
+msgid "Simple Beige Text"
+msgstr "Teks Beige Sederhana"
+
+#: under-construction.php:1865
+msgid "Soothing Nature"
+msgstr "Alam Menenangkan"
+
+#: under-construction.php:1859
+msgid "Small Office"
+msgstr "Kantor Kecil"
+
+#: under-construction.php:1851
+msgid "Cloud Business"
+msgstr "Bisnis Awan"
+
+#: under-construction.php:2294
+msgid "Features"
+msgstr "Fitur-fitur"
+
+#: under-construction.php:2185
+msgid "Save &amp; Validate License Key"
+msgstr "Simpan &amp; Validasi Kunci Lisensi"
+
+#: under-construction.php:2162 under-construction.php:2169
+msgid "License Status"
+msgstr "Status Lisensi"
+
+#: under-construction.php:2142
+msgid "License Key"
+msgstr "Kunci Lisensi"
+
+#: under-construction.php:1990
+msgid "Secret Direct Access Links"
+msgstr "Tautan Akses Langsung Rahasia"
+
+#: under-construction.php:1855
+msgid "Green Smoothie Webinar"
+msgstr "Webinar Green Smoothie"
+
+#: under-construction.php:1847
+msgid "The Watch Store"
+msgstr "Toko Jam"
+
+#: under-construction.php:1883
+msgid "Mountain Peak"
+msgstr "Puncak Gunung"
+
+#: under-construction.php:1703
+msgid "3rd Party Shortcode Support in Content"
+msgstr "Dukungan Shortcode Pihak Ketiga dalam Konten"
+
+#: under-construction.php:1533
+msgid "While performing maintenance or having any temporary content displayed, it is favorable for SEO to prevent search engines from indexing the temporaray site. This is a <a href=\"#\" class=\"open-ucp-upsell\" data-pro-ad=\"search_engines_text\">PRO feature</a>."
+msgstr "Ketika perbaikan sedang berlangsung atau menampilkan konten sementara, akan lebih baik bagi SEO untuk mencegah mesin pencari mengindeks situs. Ini merupakan salah satu <a href=\"#\" class=\"open-ucp-upsell\">fitur versi PRO</a>."
+
+#: under-construction.php:1526
+msgid "Prevent Search Engines from Indexing the Temporary Site"
+msgstr "Mencegah Mesin Pencari dari Pengindeksan Situs Sementara"
+
+#: under-construction.php:1350
+msgid "License key saved and activated!"
+msgstr "Kunci lisensi disimpan dan diaktifkan!"
+
+#: under-construction.php:1342
+msgid "License key saved."
+msgstr "Kunci lisensi disimpan."
+
+#: under-construction.php:908 under-construction.php:931
+#: under-construction.php:954
+msgid "I'm not interested (remove this notice)"
+msgstr "Saya tidak tertarik (hapus pemberitahuan ini)"
+
+#: under-construction.php:907
+msgid "Translate UCP into your language &amp; get a PRO license for free"
+msgstr "Terjemahkan UCP ke bahasa Anda &amp; dapatkan lisensi PRO secara gratis"
+
+#: under-construction.php:359
+msgid "UnderConstructionPage PRO"
+msgstr "UnderConstructionPage PRO"
+
+#. Description of the plugin
+#: under-construction.php
+msgid "Put your site behind a great looking under construction, coming soon, maintenance mode or landing page."
+msgstr "Letakkan situs Anda di halaman sedang dibangun, segera hadir, mode perawatan atau arahan yang tampil hebat."
+
+#: under-construction.php:1980
+msgid "Whitelisted IP Addresses"
+msgstr "Alamat IP dalam daftar putih"
+
+#: under-construction.php:1839 under-construction.php:1862
+msgid "Build Your Own Custom Theme"
+msgstr "Bangun Tema Kustom Anda Sendiri"
+
+#: under-construction.php:1885
+msgid "Christmas Greetings"
+msgstr "Peringatan Hari Natal"
+
+#: under-construction.php:1569
+msgid "Reset all settings to default values"
+msgstr "Setel ulang semua pengaturan ke nilai default"
+
+#. Author of the plugin
+#: under-construction.php under-construction.php:1176
+msgid "WebFactory Ltd"
+msgstr "WebFactory Ltd"
+
+#: under-construction.php:1157
+msgid "Get the <b>PRO</b> version"
+msgstr "Mendapatkan versi <b>PRO</b>"
+
+#: under-construction.php:1144
+msgid "Go <b>PRO</b>"
+msgstr "Menjadi <b>PRO</b>"
+
+#: under-construction.php:1144 under-construction.php:1157
+#: under-construction.php:2293
+msgid "Get PRO"
+msgstr "Mendapatkan PRO"
+
+#: under-construction.php:2013
+msgid "Selected users (when logged in) will <b>not</b> be affected by the under construction mode and will always see the \"normal\" site."
+msgstr "Pengguna yang dipilih (saat login) <b>tidak</b> akan terpengaruh oleh mode sedang dalam konstruksi dan akan selalu melihat situs \"normal\"."
+
+#: under-construction.php:2005
+msgid "Selected user roles will <b>not</b> be affected by the under construction mode and will always see the \"normal\" site. Default: administrator."
+msgstr "Peran pengguna yang dipilih <b> tidak kan</b> dipengaruhi oleh mode yang sedang dalam perawatan dan akan selalu melihat situs \"normal\". Default: administrator"
+
+#: under-construction.php:1826
+msgid "Show more Social &amp; Contact Icons"
+msgstr "Tampilkan medsos lainnya &amp; Ikon kontak"
+
+#: under-construction.php:1823
+msgid "Phone number in full international format."
+msgstr "Nomer telwpon dalm format internasional penuh"
+
+#: under-construction.php:1821
+msgid "Phone Number"
+msgstr "Nomer Telepon"
+
+#: under-construction.php:1817
+msgid "Email will be encoded on the page to protect it from email address harvesters."
+msgstr "Email akan dikodekan pada halaman untuk melindunginya dari pemanen alamat email."
+
+#: under-construction.php:1816
+msgid "name@domain.com"
+msgstr "name@domain.com"
+
+#: under-construction.php:1815
+msgid "Email Address"
+msgstr "Alamat Email"
+
+#: under-construction.php:1822
+msgid "+1-123-456-789"
+msgstr "+1-123-456-789"
+
+#: under-construction.php:1809
+msgid "WhatsApp Phone Number"
+msgstr "Nomer telepon WhatsApp"
+
+#: under-construction.php:1805
+msgid "Skype username or account name."
+msgstr "Akun Skype atau nama akun"
+
+#: under-construction.php:1804
+msgid "Skype username or account name"
+msgstr "Akun Skype atau nama akun"
+
+#: under-construction.php:1803
+msgid "Skype Username"
+msgstr "Nma pengguna Skype"
+
+#: under-construction.php:1799
+msgid "Complete URL, with https prefix to Telegram group, channel or account."
+msgstr "URL komplit, dengan prefix https ke grup Telegram, channel atau akun"
+
+#: under-construction.php:1798
+msgid "Telegram group, channel or account URL"
+msgstr "URL grup Telegram, saluran atau akun"
+
+#: under-construction.php:1797
+msgid "Telegram Group, Channel or Account"
+msgstr "Grup Telegram, Saluran atau Akun"
+
+#: under-construction.php:1787
+msgid "Complete URL, with https prefix, to Instagram profile."
+msgstr "URL lengkap, dengan awalan http, ke profil Instagram."
+
+#: under-construction.php:1786
+msgid "Instagram profile URL"
+msgstr "URL profil Instagram"
+
+#: under-construction.php:1785
+msgid "Instagram Profile"
+msgstr "Profil Instagram"
+
+#: under-construction.php:1793
+msgid "Complete URL, with https prefix, to VK profile."
+msgstr "URL lengkap, dengan awalan http, ke profil Behance."
+
+#: under-construction.php:1780
+msgid "Behance profile URL"
+msgstr "URL profil Behance"
+
+#: under-construction.php:1779
+msgid "Behance Profile"
+msgstr "Profil Behance"
+
+#: under-construction.php:1775
+msgid "Complete URL, with https prefix, to Dribbble profile."
+msgstr "URL lengkap, dengan awalan http, ke profil Dribbble."
+
+#: under-construction.php:1774
+msgid "Dribbble profile URL"
+msgstr "URL profil Dribbble"
+
+#: under-construction.php:1773
+msgid "Dribbble Profile"
+msgstr "Profil Dribbble"
+
+#: under-construction.php:1769
+msgid "Complete URL, with https prefix, to Pinterest profile."
+msgstr "URL lengkap, dengan awalan http, ke profil Pinterest."
+
+#: under-construction.php:1768
+msgid "Pinterest profile URL"
+msgstr "URL profil Pinterest"
+
+#: under-construction.php:1767
+msgid "Pinterest Profile"
+msgstr "Profil Pinterest"
+
+#: under-construction.php:1763
+msgid "Complete URL, with https prefix, to Vimeo page or video."
+msgstr "URL lengkap, dengan awalan http, ke halaman Vimeo atau video."
+
+#: under-construction.php:1762
+msgid "Vimeo page or video URL"
+msgstr "Laman Vimeo atau URL video"
+
+#: under-construction.php:1761
+msgid "Vimeo Profile Page or Video"
+msgstr "Laman Profil Vimeo atau Video"
+
+#: under-construction.php:1757
+msgid "Complete URL, with https prefix, to YouTube page or video."
+msgstr "URL lengkap, dengan awalan http, ke halaman YouTube atau video."
+
+#: under-construction.php:1756
+msgid "YouTube page or video URL"
+msgstr "Laman Youtube atau URL video"
+
+#: under-construction.php:1755
+msgid "YouTube Profile Page or Video"
+msgstr "Laman Profil YouTube atau Video"
+
+#: under-construction.php:1751
+msgid "Complete URL, with https prefix, to LinkedIn profile page."
+msgstr "URL Lengkap, dengan awalan http, ke halaman profil LinkedIn."
+
+#: under-construction.php:1750
+msgid "LinkedIn profile page URL"
+msgstr "URL laman profil LinkedIn"
+
+#: under-construction.php:1749
+msgid "LinkedIn Profile"
+msgstr "Profil LinkedIn"
+
+#: under-construction.php:1745
+msgid "Complete URL, with https prefix, to Twitter profile page."
+msgstr "URL lengkap, dengan awalan http, ke halaman profil Twitter."
+
+#: under-construction.php:1744
+msgid "Twitter profile URL"
+msgstr "URL profil Twitter"
+
+#: under-construction.php:1743
+msgid "Twitter Profile"
+msgstr "Profil Twitter"
+
+#: under-construction.php:1739
+msgid "Complete URL, with https prefix, to Facebook page."
+msgstr "URL lengkap, dengan awalan http, ke halaman Facebook."
+
+#: under-construction.php:1738
+msgid "Facebook business or personal page URL"
+msgstr "URL Facebook bisnis atau halaman pribadi"
+
+#: under-construction.php:1737
+msgid "Facebook Page"
+msgstr "Halaman Facebook"
+
+#: under-construction.php:1733
+msgid "Social &amp; Contact Icons"
+msgstr "Sosial &amp; Ikon Kontak"
+
+#: under-construction.php:1683
+msgid "Show Some Love"
+msgstr "Tunjukkan Beberapa Cinta"
+
+#: under-construction.php:1713
+msgid "Login Button"
+msgstr "Tombol masuk"
+
+#: under-construction.php:1670
+msgid "Headline"
+msgstr "Pokok berita"
+
+#: under-construction.php:1664
+msgid "Description"
+msgstr "Deskripsi"
+
+#: under-construction.php:1650
+msgid "Title"
+msgstr "Judul"
+
+#: under-construction.php:1570
+msgid "By resetting all settings to their default values any customizations you have done will be lost. There is no undo."
+msgstr "Dengan mengatur ulang semua pengaturan ke nilai default, setiap penyesuaian yang telah Anda lakukan akan hilang. Tidak bisa dibatalkan."
+
+#: under-construction.php:1567
+msgid "Reset Settings"
+msgstr "Setel ulang pengaturan"
+
+#: under-construction.php:1556
+msgid "Enter the unique tracking ID found in your GA tracking profile settings to track visits to pages."
+msgstr "Masukkan ID pelacakan unik yang ada di setelan profil pelacakan GA Anda untuk melacak kunjungan ke halaman."
+
+#: under-construction.php:1544
+msgid ""
+"If enabled, construction mode will automatically stop showing on the selected date.\n"
+"    This option will not \"auto-enable\" construction mode. Status has to be set to \"On\"."
+msgstr ""
+"Jika diaktifkan, mode konstruksi secara otomatis akan berhenti ditampilkan pada tanggal yang dipilih.\n"
+"     Pilihan ini tidak akan \"mengaktifkan otomatis\" mode konstruksi. Status harus disetel ke \"Aktif\"."
+
+#: under-construction.php:1522
+msgid "By enabling construction mode users will not be able to access the site's content. They will only see the under construction page. To configure exceptions set <a class=\"change_tab\" data-tab=\"3\" href=\"#whitelisted-roles\">whitelisted user roles</a>."
+msgstr "Dengan mengaktifkan mode konstruksi pengguna tidak akan dapat mengakses konten situs. Mereka hanya akan melihat halaman yang sedang dibangun. Untuk mengonfigurasi pengecualian, set <a class=\"change_tab\" data-tab=\"3\" href=\"#whitelisted-roles\"> peran pengguna masuk daftar putih </a>."
+
+#: under-construction.php:1176
+msgid "Visit our site to get more great plugins"
+msgstr "Kunjungi situs kami untuk mendapatkan lebih banyak plugin hebat"
+
+#: under-construction.php:1176
+msgid "Visit UCP's site for more info"
+msgstr "Kunjungi situs UCP untuk info lebih lanjut"
+
+#: under-construction.php:877
+msgid "Thank you very much! The UCP team"
+msgstr "Terima kasih banyak! Tim UCP"
+
+#: under-construction.php:822
+msgid "Configure UnderConstructionPage"
+msgstr "Konfigurasikan UnderConstructionPage"
+
+#: under-construction.php:822
+msgid "Preview UnderConstructionPage"
+msgstr "Pratinjau UnderConstructionPage"
+
+#: under-construction.php:822
+msgid "<b>Under Construction Mode is enabled</b> but you are whitelisted so you see the normal site."
+msgstr "<b>Dalam Mode Konstruksi diaktifkan</b> namun Anda masuk daftar putih sehingga Anda melihat situs yang normal."
+
+#: under-construction.php:493
+msgid "Something is not right with your wp_mail() function. Please email as at ucp@webfactoryltd.com."
+msgstr "Ada sesuatu yang tidak sesuai dengan fungsi wp_mail() Anda. Silahkan email kami di ucp@webfactoryltd.com."
+
+#: under-construction.php:466
+msgid "Please double-check your email address."
+msgstr "Silakan periksa kembali alamat email Anda."
+
+#: under-construction.php:1884
+msgid "Bulldozer at Work"
+msgstr "Bulldozer Bekerja"
+
+#: under-construction.php:2209
+msgid "PRO"
+msgstr "PRO"
+
+#: under-construction.php:1331
+msgid "Please enter a valid Google Analytics Tracking ID or disable tracking."
+msgstr "Harap masukkan ID Pelacakan Google Analytics yang valid atau nonaktifkan pelacakan."
+
+#: under-construction.php:1882
+msgid "Clock"
+msgstr "Jam"
+
+#: under-construction.php:2060
+msgid "Contact Support"
+msgstr "Dukungan Kontak"
+
+#: under-construction.php:1881
+msgid "Stop"
+msgstr "Berhenti"
+
+#: under-construction.php:1537
+msgid "Automatic End Date &amp; Time"
+msgstr "Tanggal Akhir &amp; Waktu Otomatis"
+
+#: under-construction.php:1879
+msgid "Setup"
+msgstr "Persiapan"
+
+#: under-construction.php:1878
+msgid "Internet of Things"
+msgstr "Internet of Things"
+
+#: under-construction.php:1876
+msgid "Puzzles"
+msgstr "Teka-teki"
+
+#: under-construction.php:1875
+msgid "Laptop"
+msgstr "Laptop"
+
+#: under-construction.php:1873
+msgid "Ambulance"
+msgstr "Ambulans"
+
+#: under-construction.php:1872
+msgid "Light Bulb"
+msgstr "Bola Lampu"
+
+#: under-construction.php:1122 under-construction.php:1143
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: under-construction.php:1092
+msgid "Under construction mode is disabled"
+msgstr "Dalam mode konstruksi dinonaktifkan"
+
+#: under-construction.php:1089 under-construction.php:1096
+#: under-construction.php:1514
+msgid "Under Construction Mode"
+msgstr "Dalam Mode Konstruksi"
+
+#: under-construction.php:1085
+msgid "Under construction mode is enabled"
+msgstr "Dalam mode konstruksi diaktifkan"
+
+#: under-construction.php:876
+msgid "I've already rated the plugin"
+msgstr "Saya sudah memberi nilai pada plugin"
+
+#: under-construction.php:875
+msgid "Help make the plugin better by rating it"
+msgstr "Bantu membuat plugin lebih baik dengan menilainya"
+
+#: under-construction.php:729
+msgid "Free UnderConstructionPage plugin for WordPress"
+msgstr "Plugin UnderConstructionPage gratis untuk WordPress"
+
+#: under-construction.php:1115 under-construction.php:2449
+msgid "Preview"
+msgstr "Pratinjau"
+
+#: under-construction.php:2448
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: under-construction.php:2207
+msgid "Access"
+msgstr "Mengakses"
+
+#: under-construction.php:1676 under-construction.php:2206
+msgid "Content"
+msgstr "Konten"
+
+#: under-construction.php:2205
+msgid "Design"
+msgstr "Desain"
+
+#: under-construction.php:2204
+msgid "Main"
+msgstr "Utama"
+
+#: under-construction.php:2061
+msgid "FAQ"
+msgstr "FAQ"
+
+#: under-construction.php:2009
+msgid "Whitelisted Users"
+msgstr "Pengguna yang masuk daftar putih"
+
+#: under-construction.php:2000
+msgid "Whitelisted User Roles"
+msgstr "Daftar pengguna yang masuk daftar putih"
+
+#: under-construction.php:1945
+msgid "Custom CSS"
+msgstr "CSS khusus"
+
+#: under-construction.php:1913
+msgid "Theme"
+msgstr "Tema"
+
+#: under-construction.php:1870
+msgid "Rocket Launch #2"
+msgstr "Peluncuran Roket #2"
+
+#: under-construction.php:1869
+msgid "People at Work #2"
+msgstr "Orang-orang Bekerja #2"
+
+#: under-construction.php:1867
+msgid "Hot Air Balloon"
+msgstr "Balon Udara"
+
+#: under-construction.php:1866
+msgid "Lighthouse"
+msgstr "Mercusuar"
+
+#: under-construction.php:1864
+msgid "Sad Site"
+msgstr "Situs yang Sedih"
+
+#: under-construction.php:1863
+msgid "Windmill"
+msgstr "Kincir Angin"
+
+#: under-construction.php:1861
+msgid "People at Work"
+msgstr "Orang-orang Bekerja"
+
+#: under-construction.php:1860
+msgid "Safe"
+msgstr "Brankas"
+
+#: under-construction.php:1858
+msgid "Cyber Chick Dark"
+msgstr "Gadis Cyber Gelap"
+
+#: under-construction.php:1856
+msgid "Loader at Work"
+msgstr "Pemuat Sedang Bekerja"
+
+#: under-construction.php:1854
+msgid "Rocket Launch"
+msgstr "Peluncuran Roket"
+
+#: under-construction.php:1852
+msgid "Cyber Chick"
+msgstr "Ayam Cyber"
+
+#: under-construction.php:1850
+msgid "Under Construction Text"
+msgstr "Teks Dalam Konstruksi"
+
+#: under-construction.php:1848
+msgid "Forklift at Work"
+msgstr "Forklift di Tempat Kerja"
+
+#: under-construction.php:1846
+msgid "Things Went Dark"
+msgstr "Semuanya menjadi Gelap"
+
+#: under-construction.php:1842
+msgid "Plain Text"
+msgstr "Teks biasa"
+
+#: under-construction.php:1840
+msgid "Mad Designer"
+msgstr "Perancang Gila"
+
+#: under-construction.php:1549
+msgid "Google Analytics Tracking"
+msgstr "Pelacakan Google Analytics"
+
+#: under-construction.php:1543
+msgid "Open date & time picker"
+msgstr "Pemetik waktu dan tanggal terbuka"
+
+#: under-construction.php:1240
+msgid "Thank you for being patient. We are doing some work on the site and will be back shortly."
+msgstr "Terima kasih sudah bersabar. Kami sedang mengerjakan beberapa pekerjaan di situs ini dan akan segera kembali."
+
+#: under-construction.php:1239
+msgid "Sorry, we're doing some work on the site"
+msgstr "Maaf, kami sedang mengerjakan beberapa pekerjaan di situs ini"
+
+#: under-construction.php:1156 under-construction.php:2208
+msgid "Support"
+msgstr "Dukungan"
+
+#: under-construction.php:1156
+msgid "Get help"
+msgstr "Mendapatkan bantuan"
+
+#: under-construction.php:1143
+msgid "UnderConstruction Settings"
+msgstr "Pengaturan UnderConstruction"
+
+#: under-construction.php:1133
+msgid "Under Construction Mode is <b>enabled</b>."
+msgstr "Dalam Mode Konstruksi <b>diaktifkan</b>."
+
+#: under-construction.php:706
+msgid "Log in to WordPress admin"
+msgstr "Login ke admin WordPress"
+
+#: under-construction.php:703
+msgid "Open WordPress admin"
+msgstr "Buka admin WordPress"
+
+#: under-construction.php:354
+msgid "Select whitelisted user(s)"
+msgstr "Pilih pengguna yang masuk daftar putih"
+
+#: under-construction.php:352 under-construction.php:1176
+msgid "UnderConstructionPage"
+msgstr "LamanDalamKonstruksi"
+
+#: under-construction.php:1085 under-construction.php:1092
+#: under-construction.php:1212
+msgid "UnderConstruction"
+msgstr "Dalam Masa Pembangunan"
+
+#. Plugin URI of the plugin
+#: under-construction.php
+msgid "https://underconstructionpage.com/"
+msgstr "https://underconstructionpage.com/"
+
+#. Author URI of the plugin
+#: under-construction.php
+msgid "https://www.webfactoryltd.com/"
+msgstr "https://www.webfactoryltd.com/"
+
+#. Plugin Name of the plugin
+#: under-construction.php under-construction.php:1844
+msgid "Under Construction"
+msgstr "Dalam Masa Pembangunan"
+
+#: under-construction.php:351
+msgid "An undocumented error has occured. Please refresh the page and try again."
+msgstr "Terjadi kesalahan yang tidak terdokumentasi. Harap segarkan halaman dan coba lagi."
