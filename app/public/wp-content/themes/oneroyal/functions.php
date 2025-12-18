@@ -279,20 +279,97 @@ function convertToShortLanguageCode($locale) {
 /**
  * Get base URL with current language
  */
+if (!defined('ONEROYAL_BASE_DOMAIN_DEFAULT')) {
+    define('ONEROYAL_BASE_DOMAIN_DEFAULT', '//www.oneroyal.com');
+}
+if (!defined('ONEROYAL_BASE_DOMAIN_EU')) {
+    // Temporary EU domain pre-launch. Change to '//oneroyal.eu' when going live.
+    define('ONEROYAL_BASE_DOMAIN_EU', '//eu.oneroyal.io');
+}
+
 function getRoyalBaseUrl() {
-    return '//www.oneroyal.com/' . getCurrentLocale();
+    return oneroyal_get_base_domain() . '/' . getCurrentLocale();
 }
 
 /**
  * Generate localized path
  */
 function localePath($path) {
+    return oneroyal_locale_path_for_domain(oneroyal_get_base_domain(), $path);
+}
+
+/**
+ * EU-only base URL (always oneroyal.eu)
+ */
+function getRoyalBaseUrlEu() {
+    return ONEROYAL_BASE_DOMAIN_EU . '/' . getCurrentLocale();
+}
+
+/**
+ * Generate localized path using oneroyal.eu (always)
+ */
+function localePathEu($path) {
+    return oneroyal_locale_path_for_domain(ONEROYAL_BASE_DOMAIN_EU, $path);
+}
+
+/**
+ * Determine if the current visitor is coming from an EU member state (by IP).
+ * Uses the "Geolocation IP Detection" plugin when available.
+ */
+function oneroyal_is_eu_visitor() {
+    static $cache = null;
+    if ($cache !== null) {
+        return (bool) $cache;
+    }
+
+    $cache = false;
+
+    if (!function_exists('geoip_detect2_get_info_from_current_ip')) {
+        return $cache;
+    }
+
+    try {
+        $record = geoip_detect2_get_info_from_current_ip(null, ['skipLocalCache' => false]);
+
+        $countryCode = '';
+        if (is_object($record) && isset($record->country) && is_object($record->country) && isset($record->country->isoCode)) {
+            $countryCode = strtoupper((string) $record->country->isoCode);
+        }
+
+        $euCountryCodes = [
+            'AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT',
+            'LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE',
+        ];
+        $euCountryCodes = apply_filters('oneroyal_eu_country_codes', $euCountryCodes);
+
+        if ($countryCode && in_array($countryCode, $euCountryCodes, true)) {
+            $cache = true;
+        }
+    } catch (\Throwable $e) {
+        // If lookup fails, default to non-EU.
+        $cache = false;
+    }
+
+    return (bool) $cache;
+}
+
+/**
+ * Pick base domain based on visitor location.
+ */
+function oneroyal_get_base_domain() {
+    return oneroyal_is_eu_visitor() ? ONEROYAL_BASE_DOMAIN_EU : ONEROYAL_BASE_DOMAIN_DEFAULT;
+}
+
+/**
+ * Shared localized-path builder for OneRoyal domains.
+ */
+function oneroyal_locale_path_for_domain($domain, $path) {
     $current_locale = getCurrentLocale();
-    $base_url = '//www.oneroyal.com/' . $current_locale;
-    
+    $base_url = rtrim((string) $domain, '/') . '/' . $current_locale;
+
     // Add set_lang parameter to ensure language change is triggered
     $separator = (strpos($path, '?') !== false) ? '&' : '?';
-    
+
     return $base_url . $path . $separator . 'set_lang=' . $current_locale;
 }
 

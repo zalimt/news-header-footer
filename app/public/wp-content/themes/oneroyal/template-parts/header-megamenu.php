@@ -1,3 +1,4 @@
+<?php $is_eu = function_exists('oneroyal_is_eu_visitor') ? oneroyal_is_eu_visitor() : false; ?>
 <header>
     <article>
         <section>
@@ -142,6 +143,7 @@
                                         </h3>
                                         <p class="t-14 fw-400">Start easily with low spreads and MT4/MT5 access on our Zero commission account.</p>
                                     </a>
+									<?php if (!$is_eu) : ?>
                                     <a href="<?php echo localePath('/accounts/ecn'); ?>" class="<?php echo ($targetUrl === 'accounts/ecn') ? 'current submenu-item' : 'submenu-item'; ?>">
                                         <h3 class="t-16 fw-500">
                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/accounts-icon-03.svg" alt="ECN Accounts" class="menu-icon">
@@ -149,8 +151,10 @@
                                         </h3>
                                         <p class="t-14 fw-400">Trade currency pairs on the global forex market with competitive conditions.</p>
                                     </a>
+									<?php endif; ?>
                                 </div>
                                 <div class="submenu-column">
+									<?php if (!$is_eu) : ?>
                                     <a href="<?php echo localePath('/accounts/social-copy-trading'); ?>" class="<?php echo ($targetUrl === 'accounts/social-copy-trading') ? 'current submenu-item' : 'submenu-item'; ?>">
                                         <h3 class="t-16 fw-500">
                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/accounts-icon-04.svg" alt="Social & Copy Trading" class="menu-icon">
@@ -158,6 +162,7 @@
                                         </h3>
                                         <p class="t-14 fw-400">Easily copy top traders' strategies and trade smarter with OneRoyal's platform.</p>
                                     </a>
+									<?php endif; ?>
                                     <a href="<?php echo localePath('/accounts/prime'); ?>" class="<?php echo ($targetUrl === 'accounts/ecn') ? 'current submenu-item' : 'submenu-item'; ?>">
                                         <h3 class="t-16 fw-500">
                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/accounts-icon-05.svg" alt="Prime Accounts" class="menu-icon">
@@ -181,6 +186,7 @@
                                         </h3>
                                         <p class="t-14 fw-400">Manage deposits, withdrawals, and wallets easily with secure payment options.</p>
                                     </a>
+									<?php if (!$is_eu) : ?>
                                    <a href="<?php echo localePath('/accounts/pamm-investing'); ?>" class="<?php echo ($targetUrl === 'accounts/pamm-investing') ? 'current submenu-item' : 'submenu-item'; ?>">
                                         <h3 class="t-16 fw-500">
                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/accounts-icon-08.svg" alt="PAMM Investing" class="menu-icon">
@@ -188,6 +194,7 @@
                                         </h3>
                                         <p class="t-14 fw-400">Invest with skilled PAMM leaders and track real-time performance transparently.</p>
                                     </a>
+									<?php endif; ?>
                                     <a href="<?php echo localePath('/accounts/risk-management'); ?>" class="<?php echo ($targetUrl === 'accounts/risk-management') ? 'current submenu-item' : 'submenu-item'; ?>">
                                         <h3 class="t-16 fw-500">
                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/accounts-icon-09.svg" alt="Risk Management" class="menu-icon">
@@ -195,6 +202,15 @@
                                         </h3>
                                         <p class="t-14 fw-400">Monitor exposure and volatility with real-time alerts and peace of mind.</p>
                                     </a>
+									<?php if ($is_eu) : ?>
+										<a href="<?php echo localePath('/demo-account'); ?>" class="<?php echo ($targetUrl === 'demo-account') ? 'current submenu-item' : 'submenu-item'; ?>">
+											<h3 class="t-16 fw-500">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/platforms-icon-07.svg" alt="Demo Account" class="menu-icon">
+												Demo Account
+											</h3>
+											<p class="t-14 fw-400">Practice forex trading risk-free with a real-market demo account experience.</p>
+										</a>
+									<?php endif; ?>
                                 </div>
                                 <div class="submenu-column media-column">
 									<a href="//oneroyal.academy/<?php echo getCurrentLocale(); ?>/faqs/how-does-dynamic-leverage-work?set_lang=<?php echo getCurrentLocale(); ?>" class="<?php echo ( is_single(493) ) ? 'current submenu-item' : 'submenu-item'; ?>">
@@ -218,7 +234,9 @@
                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/platforms-icon-01.svg" alt="Compare Platforms" class="menu-icon">
                                             Compare Platforms
                                         </h3>
-                                        <p class="t-14 fw-400">Compare MT4, MT5, orTrader and more to find your ideal trading platform.</p>
+										<p class="t-14 fw-400">
+											<?php echo $is_eu ? 'Compare MT4 and MT5 to find your ideal trading platform.' : 'Compare MT4, MT5, orTrader and more to find your ideal trading platform.'; ?>
+										</p>
                                     </a>
                                     <a href="<?php echo localePath('/mt5-platform'); ?>" class="<?php echo ($targetUrl === 'platforms/mt5-platform') ? 'current submenu-item' : 'submenu-item'; ?>">
                                         <h3 class="t-16 fw-500">
@@ -235,6 +253,7 @@
                                         <p class="t-14 fw-400">Access MT4 on web, mobile, and desktop for flexible and powerful trading anywhere.</p>
                                     </a>
                                 </div>
+								<?php if (!$is_eu) : ?>
                                 <div class="submenu-column">
                                     <a href="<?php echo localePath('/webtrader'); ?>" class="<?php echo ($targetUrl === 'webtrader') ? 'current submenu-item' : 'submenu-item'; ?>">
                                         <h3 class="t-16 fw-500">
@@ -295,6 +314,7 @@
                                         <p class="t-16 fw-400">Our product is the ultimate tool for simplifying your work life and increasing efficiency.</p>
                                     </div>
                                 </div>
+								<?php endif; ?>
                             </div>
                         </div>
                     </li>
@@ -303,36 +323,45 @@
                         <div class="submenu">
                             <div class="submenu-columns flex-column">
                                 <div class="submenu-column last-column single-column">
-                                    <a href="<?php echo localePath('/partners'); ?>" class="<?php echo ($targetUrl === 'partners') ? 'current submenu-item' : 'submenu-item'; ?>">
-                                        <h3 class="t-16 fw-500">
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/partners-icon-01.svg" alt="Partner with OneRoyal" class="menu-icon">
-                                            Partner with OneRoyal
-                                        </h3>
-                                    </a>
-                                    <a href="<?php echo localePath('/partners/introducing-broker'); ?>" class="<?php echo ($targetUrl === 'introducing-broker') ? 'current submenu-item' : 'submenu-item'; ?>">
-                                        <h3 class="t-16 fw-500">
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/partners-icon-02.svg" alt="Introducing Brokers" class="menu-icon">
-                                            Introducing Brokers
-                                        </h3>
-                                    </a>
-                                    <a href="<?php echo localePath('/partners/refer-a-friend'); ?>" class="<?php echo ($targetUrl === 'refer-a-friend') ? 'current submenu-item' : 'submenu-item'; ?>">
-                                        <h3 class="t-16 fw-500">
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/partners-icon-03.svg" alt="Refer a Friend" class="menu-icon">
-                                            Refer a Friend
-                                        </h3>
-                                    </a>
-                                    <a href="<?php echo localePath('/partners/money-managers'); ?>" class="<?php echo ($targetUrl === 'money-makers') ? 'current submenu-item' : 'submenu-item'; ?>">
-                                        <h3 class="t-16 fw-500">
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/partners-icon-04.svg" alt="Money Managers" class="menu-icon">
-                                            Money Managers
-                                        </h3>
-                                    </a>
-                                    <a href="<?php echo localePath('/partners/oneprime'); ?>" class="<?php echo ($targetUrl === 'oneprime') ? 'current submenu-item' : 'submenu-item'; ?>">
-                                        <h3 class="t-16 fw-500">
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/partners-icon-05.svg" alt="Partner with OnePrime" class="menu-icon">
-                                            Partner with OnePrime
-                                        </h3>
-                                    </a>
+									<?php if ($is_eu) : ?>
+										<a href="<?php echo localePath('/partners/oneprime'); ?>" class="<?php echo ($targetUrl === 'oneprime') ? 'current submenu-item' : 'submenu-item'; ?>">
+											<h3 class="t-16 fw-500">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/partners-icon-05.svg" alt="Partner with OnePrime" class="menu-icon">
+												Partner with OnePrime
+											</h3>
+										</a>
+									<?php else : ?>
+										<a href="<?php echo localePath('/partners'); ?>" class="<?php echo ($targetUrl === 'partners') ? 'current submenu-item' : 'submenu-item'; ?>">
+											<h3 class="t-16 fw-500">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/partners-icon-01.svg" alt="Partner with OneRoyal" class="menu-icon">
+												Partner with OneRoyal
+											</h3>
+										</a>
+										<a href="<?php echo localePath('/partners/introducing-broker'); ?>" class="<?php echo ($targetUrl === 'introducing-broker') ? 'current submenu-item' : 'submenu-item'; ?>">
+											<h3 class="t-16 fw-500">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/partners-icon-02.svg" alt="Introducing Brokers" class="menu-icon">
+												Introducing Brokers
+											</h3>
+										</a>
+										<a href="<?php echo localePath('/partners/refer-a-friend'); ?>" class="<?php echo ($targetUrl === 'refer-a-friend') ? 'current submenu-item' : 'submenu-item'; ?>">
+											<h3 class="t-16 fw-500">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/partners-icon-03.svg" alt="Refer a Friend" class="menu-icon">
+												Refer a Friend
+											</h3>
+										</a>
+										<a href="<?php echo localePath('/partners/money-managers'); ?>" class="<?php echo ($targetUrl === 'money-makers') ? 'current submenu-item' : 'submenu-item'; ?>">
+											<h3 class="t-16 fw-500">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/partners-icon-04.svg" alt="Money Managers" class="menu-icon">
+												Money Managers
+											</h3>
+										</a>
+										<a href="<?php echo localePath('/partners/oneprime'); ?>" class="<?php echo ($targetUrl === 'oneprime') ? 'current submenu-item' : 'submenu-item'; ?>">
+											<h3 class="t-16 fw-500">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/partners-icon-05.svg" alt="Partner with OnePrime" class="menu-icon">
+												Partner with OnePrime
+											</h3>
+										</a>
+									<?php endif; ?>
                                 </div>
                             </div>
                         </div>
@@ -496,13 +525,15 @@
                                     </a>
                                 </div>
                                 <div class="submenu-column media-column">
-                                    <a href="<?php echo localePath('/accounts/pamm-investing'); ?>" class="<?php echo ($targetUrl === 'accounts/pamm-investing') ? 'current submenu-item' : 'submenu-item'; ?>">
-                                    	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/header-card-academy.webp" alt="Academy" class="menu-icon">
-										<div class="media-column-content">
-											<h3 class="t-18 fw-600">How to Invest with PAMM</h3>
-											<p class="t-16 fw-400">Use forex PAMM investing to allow an expert to trade on your behalf. Learn how to set this up.</p>
-										</div>
-									</a>
+									<?php if (!$is_eu) : ?>
+										<a href="<?php echo localePath('/accounts/pamm-investing'); ?>" class="<?php echo ($targetUrl === 'accounts/pamm-investing') ? 'current submenu-item' : 'submenu-item'; ?>">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/header-card-academy.webp" alt="Academy" class="menu-icon">
+											<div class="media-column-content">
+												<h3 class="t-18 fw-600">How to Invest with PAMM</h3>
+												<p class="t-16 fw-400">Use forex PAMM investing to allow an expert to trade on your behalf. Learn how to set this up.</p>
+											</div>
+										</a>
+									<?php endif; ?>
                                 </div>
                             </div>
                         </div>
@@ -618,6 +649,7 @@
                                         </h3>
                                         <p class="t-14 fw-400">Learn about the OneRoyal 20+ years story, journey and mission.</p>
                                     </a>
+									<?php if (!$is_eu) : ?>
                                     <a href="<?php echo localePath('/awards-honours'); ?>" class="<?php echo ($targetUrl === 'awards-honours') ? 'current submenu-item' : 'submenu-item'; ?>">
                                         <h3 class="t-16 fw-500">
                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/about-icon-02.svg" alt="Awards & Honours" class="menu-icon">
@@ -625,6 +657,7 @@
                                         </h3>
                                         <p class="t-14 fw-400">Explore the awards that highlight our commitment to excellence in trading</p>
                                     </a>
+									<?php endif; ?>
                                     <a href="<?php echo localePath('/licences'); ?>" class="<?php echo ($targetUrl === 'licences') ? 'current submenu-item' : 'submenu-item'; ?>">
                                         <h3 class="t-16 fw-500">
                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/header-icons/about-icon-03.svg" alt="Group Licenses" class="menu-icon">

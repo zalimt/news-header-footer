@@ -2,6 +2,7 @@
 // Check if we're viewing a specific page to set active states
 $current_url = $_SERVER['REQUEST_URI'];
 $targetUrl = trim($current_url, '/');
+$is_eu = function_exists('oneroyal_is_eu_visitor') ? oneroyal_is_eu_visitor() : false;
 
 // Helper function to check if menu item is active
 function is_menu_active($url, $targetUrl) {
@@ -97,13 +98,20 @@ function create_mobile_menu_item($url, $icon, $title, $isExternal = false) {
                 <div class="mobile-submenu">
                     <?php echo create_mobile_menu_item(localePath('/accounts'), '/images/icons/header-icons/accounts-icon-01.svg', 'Compare Accounts'); ?>
 					<?php echo create_mobile_menu_item(localePath('/accounts/classic'), '/images/icons/header-icons/accounts-icon-02.svg', 'Classic Accounts'); ?>
-					<?php echo create_mobile_menu_item(localePath('/accounts/ecn'), '/images/icons/header-icons/accounts-icon-03.svg', 'ECN Accounts'); ?>
-					<?php echo create_mobile_menu_item(localePath('/accounts/social-copy-trading'), '/images/icons/header-icons/accounts-icon-04.svg', 'Social & Copy Trading'); ?>
+					<?php if (!$is_eu) : ?>
+						<?php echo create_mobile_menu_item(localePath('/accounts/ecn'), '/images/icons/header-icons/accounts-icon-03.svg', 'ECN Accounts'); ?>
+						<?php echo create_mobile_menu_item(localePath('/accounts/social-copy-trading'), '/images/icons/header-icons/accounts-icon-04.svg', 'Social & Copy Trading'); ?>
+					<?php endif; ?>
 					<?php echo create_mobile_menu_item(localePath('/accounts/prime'), '/images/icons/header-icons/accounts-icon-05.svg', 'Prime Accounts'); ?>
 					<?php echo create_mobile_menu_item(localePath('/accounts/swap-free'), '/images/icons/header-icons/accounts-icon-06.svg', 'Swap-Free Account'); ?>
 					<?php echo create_mobile_menu_item(localePath('/accounts/funding'), '/images/icons/header-icons/accounts-icon-07.svg', 'Funding Options'); ?>
-					<?php echo create_mobile_menu_item(localePath('/accounts/pamm-investing'), '/images/icons/header-icons/accounts-icon-08.svg', 'PAMM Investing'); ?>
+					<?php if (!$is_eu) : ?>
+						<?php echo create_mobile_menu_item(localePath('/accounts/pamm-investing'), '/images/icons/header-icons/accounts-icon-08.svg', 'PAMM Investing'); ?>
+					<?php endif; ?>
 					<?php echo create_mobile_menu_item(localePath('/accounts/risk-management'), '/images/icons/header-icons/accounts-icon-09.svg', 'Risk Management'); ?>
+					<?php if ($is_eu) : ?>
+						<?php echo create_mobile_menu_item(localePath('/demo-account'), '/images/icons/header-icons/platforms-icon-07.svg', 'Demo Account'); ?>
+					<?php endif; ?>
 
                 </div>
             </div>
@@ -120,13 +128,17 @@ function create_mobile_menu_item($url, $icon, $title, $isExternal = false) {
                     <?php echo create_mobile_menu_item(localePath('/compare-platforms'), '/images/icons/header-icons/platforms-icon-01.svg', 'Compare Platforms'); ?>
 					<?php echo create_mobile_menu_item(localePath('/mt5-platform'), '/images/icons/header-icons/platforms-icon-02.png', 'MT5 Platform'); ?>
 					<?php echo create_mobile_menu_item(localePath('/mt4-platform'), '/images/icons/header-icons/platforms-icon-03.png', 'MT4 Platform'); ?>
-					<?php echo create_mobile_menu_item(localePath('/webtrader'), '/images/icons/header-icons/platforms-icon-04.png', 'WebTrader'); ?>
+					<?php if (!$is_eu) : ?>
+						<?php echo create_mobile_menu_item(localePath('/webtrader'), '/images/icons/header-icons/platforms-icon-04.png', 'WebTrader'); ?>
+					<?php endif; ?>
 <!-- 					<?php echo create_mobile_menu_item(localePath('/accelerator'), '/images/icons/header-icons/platforms-icon-05.png', 'Accelerator'); ?> -->
-					<?php echo create_mobile_menu_item(localePath('/multiterminal'), '/images/icons/header-icons/platforms-icon-06.svg', 'MultiTerminal'); ?>
-					<?php echo create_mobile_menu_item(localePath('/trading-app'), '/images/icons/header-icons/promotions-icon-06.svg', 'Trading App'); ?>
-					<?php echo create_mobile_menu_item(localePath('/demo-account'), '/images/icons/header-icons/platforms-icon-07.svg', 'Demo Account'); ?>
-					<?php echo create_mobile_menu_item(localePath('/metafx'), '/images/icons/header-icons/platforms-icon-08.svg', 'MetaFX'); ?>
-					<?php echo create_mobile_menu_item(localePath('/vps-hosting'), '/images/icons/header-icons/platforms-icon-09.svg', 'VPS Hosting'); ?>
+					<?php if (!$is_eu) : ?>
+						<?php echo create_mobile_menu_item(localePath('/multiterminal'), '/images/icons/header-icons/platforms-icon-06.svg', 'MultiTerminal'); ?>
+						<?php echo create_mobile_menu_item(localePath('/trading-app'), '/images/icons/header-icons/promotions-icon-06.svg', 'Trading App'); ?>
+						<?php echo create_mobile_menu_item(localePath('/demo-account'), '/images/icons/header-icons/platforms-icon-07.svg', 'Demo Account'); ?>
+						<?php echo create_mobile_menu_item(localePath('/metafx'), '/images/icons/header-icons/platforms-icon-08.svg', 'MetaFX'); ?>
+						<?php echo create_mobile_menu_item(localePath('/vps-hosting'), '/images/icons/header-icons/platforms-icon-09.svg', 'VPS Hosting'); ?>
+					<?php endif; ?>
 
                 </div>
             </div>
@@ -140,11 +152,15 @@ function create_mobile_menu_item($url, $icon, $title, $isExternal = false) {
                     </svg>
                 </button>
                 <div class="mobile-submenu">
-                    <?php echo create_mobile_menu_item(localePath('/partners'), '/images/icons/header-icons/partners-icon-01.svg', 'Partner with OneRoyal'); ?>
-					<?php echo create_mobile_menu_item(localePath('/partners/introducing-broker'), '/images/icons/header-icons/partners-icon-02.svg', 'Introducing Broker'); ?>
-					<?php echo create_mobile_menu_item(localePath('/partners/refer-a-friend'), '/images/icons/header-icons/partners-icon-03.svg', 'Refer a Friend'); ?>
-					<?php echo create_mobile_menu_item(localePath('/partners/money-managers'), '/images/icons/header-icons/partners-icon-04.svg', 'Money Managers'); ?>
-					<?php echo create_mobile_menu_item(localePath('/partners/oneprime'), '/images/icons/header-icons/partners-icon-05.svg', 'Partner with OnePrime'); ?>
+					<?php if ($is_eu) : ?>
+						<?php echo create_mobile_menu_item(localePath('/partners/oneprime'), '/images/icons/header-icons/partners-icon-05.svg', 'Partner with OnePrime'); ?>
+					<?php else : ?>
+						<?php echo create_mobile_menu_item(localePath('/partners'), '/images/icons/header-icons/partners-icon-01.svg', 'Partner with OneRoyal'); ?>
+						<?php echo create_mobile_menu_item(localePath('/partners/introducing-broker'), '/images/icons/header-icons/partners-icon-02.svg', 'Introducing Broker'); ?>
+						<?php echo create_mobile_menu_item(localePath('/partners/refer-a-friend'), '/images/icons/header-icons/partners-icon-03.svg', 'Refer a Friend'); ?>
+						<?php echo create_mobile_menu_item(localePath('/partners/money-managers'), '/images/icons/header-icons/partners-icon-04.svg', 'Money Managers'); ?>
+						<?php echo create_mobile_menu_item(localePath('/partners/oneprime'), '/images/icons/header-icons/partners-icon-05.svg', 'Partner with OnePrime'); ?>
+					<?php endif; ?>
                 </div>
             </div>
 
@@ -224,7 +240,9 @@ function create_mobile_menu_item($url, $icon, $title, $isExternal = false) {
                 </button>
                 <div class="mobile-submenu">
                     <?php echo create_mobile_menu_item(localePath('/why-us'), '/images/icons/header-icons/about-icon-01.svg', 'Why OneRoyal'); ?>
-                    <?php echo create_mobile_menu_item(localePath('/awards-honours'), '/images/icons/header-icons/about-icon-02.svg', 'Awards & Honours'); ?>
+					<?php if (!$is_eu) : ?>
+						<?php echo create_mobile_menu_item(localePath('/awards-honours'), '/images/icons/header-icons/about-icon-02.svg', 'Awards & Honours'); ?>
+					<?php endif; ?>
                     <?php echo create_mobile_menu_item(localePath('/licences'), '/images/icons/header-icons/about-icon-03.svg', 'Group Licences'); ?>
                     <?php echo create_mobile_menu_item(localePath('/documents'), '/images/icons/header-icons/about-icon-04.svg', 'Legal Documents'); ?>
                     <?php echo create_mobile_menu_item(localePath('/csr'), '/images/icons/header-icons/about-icon-05.svg', 'CSR Activities'); ?>
